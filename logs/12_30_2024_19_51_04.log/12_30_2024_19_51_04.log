@@ -1,0 +1,24 @@
+[ 2024-12-30 19:51:13,979 ] 27 root - INFO - Data ingestion method stared
+[ 2024-12-30 19:51:14,162 ] 32 root - INFO - Dataset read as pandas DataFrame
+[ 2024-12-30 19:51:15,079 ] 39 root - INFO - Train test split
+[ 2024-12-30 19:51:15,868 ] 46 root - INFO - Ingestion of data is complete
+[ 2024-12-30 19:51:16,206 ] 93 root - INFO - Read train and test data completed
+[ 2024-12-30 19:51:16,225 ] 94 root - INFO - Train DataFrame Head : 
+       id  carat    cut color clarity  depth  table  price     x     y     z
+0  19498   1.21  Ideal     H    VVS2   61.3   57.0   8131  6.92  6.87  4.23
+1  31230   0.31  Ideal     E     VS2   62.0   56.0    756  4.38  4.36  2.71
+2  22312   1.21  Ideal     E     VS1   62.4   57.0  10351  6.75  6.83  4.24
+3    279   0.81  Ideal     F     SI2   62.6   55.0   2795  5.92  5.96  3.72
+4   6647   0.79  Ideal     I    VVS2   61.7   56.0   4092  5.94  5.95  3.67
+[ 2024-12-30 19:51:16,238 ] 95 root - INFO - Test DataFrame HEad : 
+       id  carat        cut color clarity  depth  table  price     x     y     z
+0   1389   0.24      Ideal     G    VVS1   62.1   56.0    559  3.97  4.00  2.47
+1  50053   0.58  Very Good     F    VVS2   60.0   57.0   2201  5.44  5.42  3.26
+2  41646   0.40      Ideal     E    VVS2   62.1   55.0   1238  4.76  4.74  2.95
+3  42378   0.43    Premium     E    VVS2   60.8   57.0   1304  4.92  4.89  2.98
+4  17245   1.55      Ideal     E     SI2   62.3   55.0   6901  7.44  7.37  4.61
+[ 2024-12-30 19:51:16,238 ] 98 root - INFO - Obtaining preprocessing object
+[ 2024-12-30 19:51:16,238 ] 39 root - INFO - Data Transformation initiated
+[ 2024-12-30 19:51:16,238 ] 50 root - INFO - Pipeline initiated
+[ 2024-12-30 19:51:16,497 ] 120 root - INFO - Applying preprocessing object on training and testing datasets.
+[ 2024-12-30 19:51:16,506 ] 131 root - INFO - Processor pickle in created and saved
